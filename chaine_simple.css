@@ -1,0 +1,107 @@
+*{margin: 0;padding: 0}
+
+body {
+    background: #808080 ;
+}
+
+.container {
+    position: static;
+    text-align: center;
+    width: 0%;
+    height: 0%;
+}
+
+#background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-color: #3F0;
+}
+
+#dropzone_acquerir, #dropzone_traiter, #dropzone_communiquer, #dropzone_alimenter, #dropzone_distribuer, #dropzone_convertir, #dropzone_transformer, #dropzone_action {
+     height:8.5%;
+     width: 10.5%;
+     min-height: 8.5%;
+     max-height: 8.5%;
+     min-width: 10.5%;
+     max-width: 10.5%;
+}
+
+#dropzone_acquerir {
+    border: 2px dashed ;
+    position: absolute; bottom: 80.85%; left: 27.1%;
+    text-align: absolute;
+}
+
+#dropzone_traiter {
+    /*border: 1px dashed ;*/
+    position: absolute; bottom: 80.85%; left: 40.45%;
+    text-align: absolute;
+}
+
+#dropzone_communiquer {
+    /*border: 1px dashed ;*/
+    position: absolute; bottom: 80.85%; left: 53.8%;
+    text-align: absolute;
+}
+
+#dropzone_alimenter {
+    /*border: 1px dashed ;*/
+    position: absolute; bottom: 49.5%; left: 15%;
+    text-align: absolute;
+}
+
+#dropzone_distribuer {
+    /*border: 1px dashed ;*/
+    position: absolute; bottom: 49.5%; left: 30.4%;
+    text-align: absolute;
+}
+
+#dropzone_convertir {
+    /*border: 1px dashed ;*/
+    position: absolute; bottom: 49.5%; left: 46.3%;
+    text-align: absolute;
+}
+
+#dropzone_transformer {
+    /*border: 1px dashed ;*/
+    position: absolute; bottom: 49.5%; left: 61.8%;
+    text-align: absolute;
+}
+
+#dropzone_acquerir img, #dropzone_traiter img, #dropzone_communiquer img, #dropzone_alimenter img, #dropzone_distribuer img, #dropzone_convertir img, #dropzone_transformer img, #dropzone_action img {
+    margin: auto;
+    width : 100%;
+    height : 100%;
+}
+
+#item_store {
+    /*border: 1px dashed ;*/
+    height: 20.5%;
+    min-height: 20.5%;
+    padding: 5px;
+    position: absolute; bottom: 1.5%; right: 25.5%;
+    vertical-align: auto;
+    width: 53.9%;
+}
+
+#item_store img {
+    margin: 0.3%;
+    width : 20%;
+    height : 46%;
+}
+
+.bouton a {
+display:block;
+width:150px;
+line-height:50px;
+position: absolute; bottom: 1.5%; right: 2%;
+text-align:center;
+vertical-align:middle;
+background:url(images/bouton_noir1.png) no-repeat;
+color:white;
+text-decoration:none;
+}
+.bouton a:hover {
+background:url(images/bouton_noir2.png) no-repeat;
+}
