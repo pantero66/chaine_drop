@@ -92,16 +92,16 @@ body {
 }
 
 .bouton a {
-display:block;
-width:150px;
-line-height:50px;
-position: absolute; bottom: 1.5%; right: 2%;
-text-align:center;
-vertical-align:middle;
-background:url(images/bouton_noir1.png) no-repeat;
-color:white;
-text-decoration:none;
+    display:block;
+    width:150px;
+    line-height:50px;
+    position: absolute; bottom: 1.5%; right: 2%;
+    text-align:center;
+    vertical-align:middle;
+    background:url(images/bouton_noir1.png) no-repeat;
+    color:white;
+    text-decoration:none;
 }
 .bouton a:hover {
-background:url(images/bouton_noir2.png) no-repeat;
+    background:url(images/bouton_noir2.png) no-repeat;
 }
